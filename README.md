@@ -64,3 +64,15 @@ Generated meaningful insights around vendor efficiency, freight cost optimizatio
 1. **Clone this repository**
    ```bash
    git clone https://github.com/<your-username>/google-data-analytics-case-study.git
+2. **Install dependencies**
+
+pip install pandas numpy matplotlib seaborn scipy
+
+
+3.  **Launch Jupyter Notebook**
+
+jupyter notebook project_google_da.ipynb
+
+
+4.  **Run all cells**
+Execute the notebook sequentially to reproduce results.
