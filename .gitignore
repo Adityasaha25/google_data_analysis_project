@@ -204,4 +204,56 @@ cython_debug/
 # Marimo
 marimo/_static/
 marimo/_lsp/
-__marimo__/
+__marimo__/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+*.env
+
+# Ignore database and data cache files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore system or temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Ignore Python egg and build files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore notebook autosaves and metadata
+*.ipynb_convert
+*.ipynb_checkpoints
+
